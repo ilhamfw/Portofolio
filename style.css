@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    background-color: rgb(206, 202, 202);
+}
+h2{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 50px;
+}
+#top-menu{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* box-shadow: -38px 35px 25px -21px rgba(0,0,0,0.75);
+-webkit-box-shadow: -38px 35px 25px -21px rgba(0,0,0,0.75);
+-moz-box-shadow: -38px 35px 25px -21px rgba(0,0,0,0.75); */
+}
+
+#top-menu a{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.kontak{
+    background: blue;
+    color:white;
+    padding: 5px;
+    border: none;
+}
+.resume{
+    background: white;
+    color:rgb(17, 196, 17);
+    border: 1px rgb(17, 196, 17) solid;
+    padding: 5px;
+    
+}
+.biodata{
+    margin: 50px;
+    padding: 50px;
+    margin-top: 40px;
+    background-color: white;
+}
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 100px;
+    border-radius: 50px;
+}
+.gambar{
+    flex-basis:10%;
+
+}
+
+.grid-item{
+    flex-basis: 30%;
+}
+/* @media(min-width:321px){
+    .bio{
+        flex-direction:column;
+        position:center;
+        
+    } */
+
+
+@media(max-width:700px){
+    .bio{
+        flex-direction:column;
+        position: relative;
+    }
+}
+
+.nama{
+    width: 100%;
+}
+.submit{
+    width: 100%;
+    background: green;
+    color: white;
+    padding: 5px;
+}
